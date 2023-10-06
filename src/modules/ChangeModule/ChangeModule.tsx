@@ -24,7 +24,7 @@ const ChangeModel: React.FC<EditModelProps> = ({ model }) => {
 
   return (
     <div>
-      <h2>Edit Model</h2>
+      <h2>change Model</h2>
       {model.params.map((param) => (
         <ChangeParam
           key={param.name}
