@@ -2,11 +2,11 @@ import React, { useState } from 'react';
 import { Model,  } from '../../shared/types/typesChange';
 import ChangeParam from '../changeParams/ChangeParams';
 
-interface EditModelProps {
+interface ModelProps {
   model: Model;
 }
 
-const ChangeModel: React.FC<EditModelProps> = ({ model }) => {
+const ChangeModel: React.FC<ModelProps> = ({ model }) => {
   const [paramValues, setParamValues] = useState<{ [paramName: string]: string }>({});
 
   const handleParamChange = (paramName: string, value: string) => {
