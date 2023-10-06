@@ -6,9 +6,9 @@ interface ParamProps {
   value: string;
   onChange: (value: string) => void;
 }
-// Дастою параметры в компонент спомошю дестуризакцый  
+// достаю параметры в компонент с помощью дестуризакцый  
 const ChangeParam: React.FC<ParamProps> = ({ param, value, onChange }) => {
-  // здесь я хотел сначало зделать привязку спомощю стейта но попробывал чтото новое спомошью функцый!
+  // здесь я хотел сначало зделать привязку спомощю стейта но попробывал чтото новое с помощью функций!
   const handleChange = (e: ChangeEvent<HTMLInputElement>) => {
     onChange(e.target.value);
   };
