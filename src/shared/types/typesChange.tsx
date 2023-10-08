@@ -1,6 +1,6 @@
 export interface Param {
     name: string;
-    type: 'text';
+    type: 'text' | 'number' | 'select';
   }
   
  export interface Model {
