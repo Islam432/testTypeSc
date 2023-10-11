@@ -1,5 +1,8 @@
 # React + TypeScript + Vite
 
+содание формы каторая меняет параметры той или иной модели юзером , Динамический  с использованием typescript тоесть тип данных также динамический зависит от заданых пользователем данных!
+
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
